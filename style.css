@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.encabezado{
+    height: 40px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color: rgb(55, 55, 121);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav > h1{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
