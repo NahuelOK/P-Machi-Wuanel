@@ -39,3 +39,7 @@ nav > h1{
     font-size: 30px;
     color: rgb(0, 0, 0);
 }
+
+body{
+    background-color: rgb(209, 205, 205);
+}
