@@ -11,34 +11,54 @@
 
     </header>
     <main>
-        <form action="arrancar-torneo" class="agregar-e">
-            <div>
-                <h3>Ingrese un equipo:</h3>
-                <input type="text">
-            </div>
-            <div>
-                <h3>Ingrese localidad:</h3>
-                <input type="text">
-            </div>
-            <div>
-                <h3>Ingrese Un jugador</h3>
+        <h1 class="titulo-principal">Registro de Equipos</h1>
+        <div class="registro">
+            <form action="Configuracion.html" class="form-torneo">
                 <div>
-                    <input type="text" placeholder="Nombre Completo">
-                    <input type="number" placeholder="D.N.I">
-                    <input type="number" placeholder="N° Dorsal">
-                    <input type="button" value="Agregar Jugador">
+                    <h3>Ingrese el nombre del equipo:</h3>
+                    <div class="campos">
+                        <input class="ingreso-valores" type="text" placeholder="Nombre del Equipo">
+                    </div>
+                </div>
+                <div>
+                    <h3>Ingrese localidad:</h3>
+                    <div class="campos">
+                        <input class="ingreso-valores" type="text" placeholder="Nombre de la localidad">
+                    </div>
+                </div>
+                <div>
+                    <h3>Ingrese Un jugador:</h3>
+                    <div class="campos">
+                        <input class="ingreso-valores" type="text" placeholder="Nombre Completo">
+                        <input class="ingreso-valores" type="text" placeholder="D.N.I (sin puntos)">
+                        <input class="ingreso-valores" type="text" placeholder="N° Dorsal">           
+                    </div>
+                    <div class="c-botones">
+                        <input class="botones" type="button" value="Agregar Jugador">
+                    </div>
+                </div>
+                <div>
+                    <h3>Ingrese Cuerpo Técnico:</h3>
+                    <div class="campos">
+                        <input class="ingreso-valores" type="text" placeholder="Nombre Completo">
+                        <input class="ingreso-valores" type="text" placeholder="Rol"> 
+                    </div>
+                    <div class="c-botones">
+                        <input class="botones" type="button" value="Agregar Cuerpo.T">
+                    </div>
+                </div>
+                <input class="boton-final" type="submit" value="Agregar Equipo">
+            </form>
+            <div class="mostrar-subidos">
+                <div class="titulo-p-a">
+                    <h2>Personas Agregadas:</h2>
+                </div>
+                <div class="resultados">
+
                 </div>
             </div>
-            <div>
-                <h3>Ingrese Cuerpo Técnico</h3>
-                <div>
-                    <input type="text" placeholder="Nombre Completo">
-                    <input type="text" placeholder="Rol"> 
-                    <input type="button" value="Agregar Cuerpo.T">
-                </div>
-            </div>
-            <input type="button" value="Agregar Equipo">
-        </form>
+        </div>
+        
     </main>
 </body>
 </html>
