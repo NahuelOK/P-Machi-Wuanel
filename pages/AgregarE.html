@@ -17,37 +17,37 @@
                 <div>
                     <h3>Ingrese el nombre del equipo:</h3>
                     <div class="campos">
-                        <input class="ingreso-valores" type="text" placeholder="Nombre del Equipo">
+                        <input id="nombre" class="ingreso-valores" type="text" placeholder="Nombre del Equipo">
                     </div>
                 </div>
                 <div>
                     <h3>Ingrese localidad:</h3>
                     <div class="campos">
-                        <input class="ingreso-valores" type="text" placeholder="Nombre de la localidad">
+                        <input id="localidad" class="ingreso-valores" type="text" placeholder="Nombre de la localidad">
                     </div>
                 </div>
                 <div>
                     <h3>Ingrese Un jugador:</h3>
                     <div class="campos">
-                        <input class="ingreso-valores" type="text" placeholder="Nombre Completo">
-                        <input class="ingreso-valores" type="text" placeholder="D.N.I (sin puntos)">
-                        <input class="ingreso-valores" type="text" placeholder="N° Dorsal">           
+                        <input id="nombreJ" class="ingreso-valores" type="text" placeholder="Nombre Completo">
+                        <input id="DNI" class="ingreso-valores" type="text" placeholder="D.N.I (sin puntos)">
+                        <input id="dorsal" class="ingreso-valores" type="text" placeholder="N° Dorsal">           
                     </div>
                     <div class="c-botones">
-                        <input class="botones" type="button" value="Agregar Jugador">
+                        <input onclick="agregarJugador()" class="botones" type="button" value="Agregar Jugador">
                     </div>
                 </div>
                 <div>
                     <h3>Ingrese Cuerpo Técnico:</h3>
                     <div class="campos">
-                        <input class="ingreso-valores" type="text" placeholder="Nombre Completo">
-                        <input class="ingreso-valores" type="text" placeholder="Rol"> 
+                        <input id="nombreCT" class="ingreso-valores" type="text" placeholder="Nombre Completo">
+                        <input id="ROL" class="ingreso-valores" type="text" placeholder="Rol"> 
                     </div>
                     <div class="c-botones">
-                        <input class="botones" type="button" value="Agregar Cuerpo.T">
+                        <input onclick="agregarCuerpoTecnico()" class="botones" type="button" value="Agregar Cuerpo.T">
                     </div>
                 </div>
-                <input class="boton-final" type="submit" value="Agregar Equipo">
+                <input onclick="agregarEquipo()" class="boton-final" type="button" value="Agregar Equipo">
             </form>
             <div class="mostrar-subidos">
                 <div class="titulo-p-a">
@@ -58,7 +58,7 @@
                 </div>
             </div>
         </div>
-        
     </main>
 </body>
+<script src="../Scrips/app.js"></script>
 </html>
