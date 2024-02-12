@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(209, 205, 205);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+header > img{
+    height: 160px;
+    height: 160px;
+}
+
+main > a{
+    background-color: rgb(102, 235, 235);
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+
+main{
+    flex: 1;
+}
+
+.grupos{
+    height: 30px;
+    width: 30%;
+    margin-bottom: .8%;
+    margin-top: .8%;
+}
+
+.cuartos{
+    height: 30px;
+    width: 30%;
+    margin-bottom: .8%;
+    margin-top: .8%;
+}
+
+.semis{
+    height: 30px;
+    width: 30%;
+    margin-bottom: .8%;
+    margin-top: .8%;
+}
+
+.tercerycuarto{
+    height: 30px;
+    width: 30%;
+    margin-bottom: .8%;
+    margin-top: .8%;
+}
+
+.final{
+    height: 30px;
+    width: 30%;
+    margin-bottom: .8%;
+    margin-top: .8%;
+}
+
+.configuracion{
+    height: 30px;
+    width: 30%;
+    margin-top: .8%;
+    margin-bottom: .8%;
+}
+
+main > a:hover{
+    background-color: rgb(30, 202, 202);
+}
+
+main > a:active{
+    background-color: rgb(142, 142, 245);
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+div > a{
+    height: 30px;
+    width: 30px;
+}
+
+.mail{
+    color: #fff;
+}
